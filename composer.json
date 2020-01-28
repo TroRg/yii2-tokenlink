@@ -1,0 +1,21 @@
+{
+    "name": "trorg/yii2-tokenlink",
+    "minimum-stability": "dev",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "TroRg"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "yiisoft/yii2": "~2.0",
+        "trorg/tokenlink": "1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "trorg\\yii2\\tokenlink\\": "src/"
+        }
+    }
+}
